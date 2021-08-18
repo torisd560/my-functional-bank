@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Site</title>
+    <!-- tailwind cdn link -->
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1 class="text-5xl text-center mt-16 "> Welcome To <span class="text-pink-700"> My Bank!!</span></h1>
+    </header>
+    <main>
+        <section>
+            <div class="mx-auto mt-16 bg-gray-400 p-16 w-2/4">
+                 <h4 class="text-3xl text-pink-800 font-semibold"> Please Login</h4>
+                 <input id="user-email" class="border-2 border-gray-200 rounded w-3/4 px-4 py-1 mt-8 block" type="text" placeholder="Enter your email">
+                 <input id="user-password"  class="border-2 border-gray-200 rounded w-3/4 px-4 py-1 mt-3 block"  type="password" placeholder="Enter your password">
+                 <button id="submit-button" class="bg-pink-800 text-white px-5 py-1 rounded mt-3 font-semibold text-left">SUBMIT</button>
+                 <p id="error-msg" class="text-red-800 mt-4 font-bold" style="display: none;">"your email or password are incorrect"</p>
+                 
+
+             <div>
+        </section>
+    </main>
+    <script src="js/login.js"></script>
+</body> 
+</html>
